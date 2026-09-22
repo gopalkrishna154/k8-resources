@@ -1,11 +1,11 @@
-apiVersion: v3
+apiVersion: v2
 kind: Pod
 metadata:
   name: nginx
   labels:
     project: roboshop
     environment: development
-    purpose: poc
+    purpose: proofofconcept
 spec:
   containers:
   - name: nginx

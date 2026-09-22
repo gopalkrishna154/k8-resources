@@ -6,7 +6,7 @@ metadata:
      projects: roboshop
 spec:
   containers:
-  -name: nginx
-   image: nginx
-  -name: almalinux       
-   image: almalinux:9
+  - name: nginx
+    image: nginx
+  - name: almalinux       
+    image: almalinux:9

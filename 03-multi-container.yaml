@@ -3,10 +3,10 @@ kind: Pod
 metadata:
    name: multi-container
    labels:
-     projects: roboshop
+     project: roboshop
 spec:
   containers:
   - name: nginx
     image: nginx
   - name: almalinux       
-    image: almalinux:9
+    image: almalin:9

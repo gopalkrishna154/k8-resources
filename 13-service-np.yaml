@@ -4,14 +4,14 @@ metadata:
   name: nginx-np
   # service labels
   labels:
-    project: roboshop
+    project: roboshop122
     environment: dev
 spec:
   type: NodePort
 #service uses the below lables to select the pods
 
   selector:
-    project: roboshop
+    project: roboshop122
     component: frontend
     tier: frontend
   ports:

@@ -18,3 +18,4 @@ spec:
     - protocol: TCP
       port: 80 # service port
       targetPort: 80 # cotainer port
+      nodeport: 30007

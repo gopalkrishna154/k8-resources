@@ -3,11 +3,11 @@ kind: Service
 metadata:
   name: nginx
   labels:
-    project: roboshop
+    project: roboshop1
     environment: dev
 spec:
   selector:
-    project: roboshop
+    project: roboshop1
     component: frontend
     tier: frontend
   ports:
@@ -20,7 +20,7 @@ kind: Pod
 metadata:
   name: nginx
   labels:
-    project: roboshop
+    project: roboshop1
     environment: dev
     component: frontend
     tier: frontend

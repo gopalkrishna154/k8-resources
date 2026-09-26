@@ -15,7 +15,7 @@ spec:
       project: roboshop122
       tier: frontend
       component: frontend
-    purpose: deployment
+      purpose: deployment
     # pod
   template:
     metadata:

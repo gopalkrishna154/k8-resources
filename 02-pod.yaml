@@ -3,16 +3,11 @@ kind: Pod
 metadata:
   name: nginx
   labels:
-    project: roboshop
-    environment: development
-    purpose: proofofconcept
+    project: roboshop122
+    environment: dev
+    component: frontend
+    tier: frontend
 spec:
   containers:
   - name: nginx
     image: nginx:latest
-
-
-
-
-
-  
